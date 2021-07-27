@@ -1,10 +1,8 @@
 <?php
 
-namespace Test1;
+namespace \Oh\Gold\Medal;
 class Logger {
-
-    function printTest() {
-        echo 'print test';
+    public static function parseLog() {
+        echo 'parse logging';
     }
-
 }

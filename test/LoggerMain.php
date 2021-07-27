@@ -1,12 +1,5 @@
 <?php
 
-use Test1\Logger;
+use \Oh\Gold\Medal\Logger;
 
-class LoggerMain {
-    function loggerMainTest() {
-        Logger::printTest();
-    }
-}
-
-$loggerMain = new LoggerMain();
-$loggerMain->loggerMainTest();
+Logger::parseLog();
