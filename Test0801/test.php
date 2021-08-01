@@ -1,5 +1,7 @@
 <?php
 
+namespace oh\my\eyes;
+
 class PersonOne
 {
     private $age;
