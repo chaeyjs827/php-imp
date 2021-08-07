@@ -63,4 +63,4 @@ class ArrayEncodingTest {
 
 }
 
-echo ArrayEncodingTest::test();
+echo ArrayTest::test();
