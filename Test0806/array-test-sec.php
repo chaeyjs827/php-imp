@@ -15,4 +15,4 @@ class ArrayEncodingTest {
 
 }
 
-echo ArrayTest::test();
+echo OverridingTest::test();

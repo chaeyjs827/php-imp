@@ -24,5 +24,5 @@ class ArrayTest {
 
 }
 
-echo ArrayTest::test();
-Arraytest::encTest();
+echo OverridingTest::test();
+OverridingTest::encTest();

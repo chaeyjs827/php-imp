@@ -30,5 +30,5 @@ class ArrayEncodingTest {
     }
 }
 
-echo ArrayTest::test();
-echo ArrayTest::encToEnc();
+echo OverridingTest::test();
+echo OverridingTest::encToEnc();
