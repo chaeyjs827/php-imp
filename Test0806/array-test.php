@@ -72,4 +72,4 @@ class ArrayEncodingTest {
 
 }
 
-echo OverridingTest::test();
+echo DateTest::test();

@@ -3,7 +3,7 @@
 class OverridingTest {
 
     public static function test() {
-        echo OverridingTest::test();
+        echo DateTest::test();
     }
 
 
