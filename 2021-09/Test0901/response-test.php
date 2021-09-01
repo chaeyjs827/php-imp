@@ -1,11 +1,10 @@
 <?php
 
-use App\Libraries\Log\Logger;
-
-class RequestTest {
+class ResponseTest {
 
     public static function mainMethod($url) {
-        echo self::request('GET', $url);
+        self::request('GET', $url);
+//        echo self::request('GET', $url);
     }
 
     public static function request($method, $url, $data = false) {
@@ -16,7 +15,13 @@ class RequestTest {
         curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 3);
 //        curl_setopt($curl, CURLOPT_TIMEOUT, 1);
 
+        // $response->getStatusCode();
+        // $response->getContents();
+        // $response->getCode();
+
         $result = curl_exec($curl);
+
+//        $result;
 
         if($result == false) {
             echo 'time-out error발생인디';
@@ -29,4 +34,4 @@ class RequestTest {
 }
 
 //echo RequestTest::mainMethod('common-rest.sweettracker.net/tracking?t_key=o1SqrQ1rTDPNcHeGW1pslg&t_code=CJGLS&t_invoice=111111111111');
-echo ResponseTest::mainMethod('https://jsonplaceholder.typicode.com/posts');
+ResponseTest::mainMethod('https://jsonplaceholder.typicode.com/posts');
