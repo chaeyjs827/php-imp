@@ -88,4 +88,4 @@ class ArrayIfTest {
     }
 }
 
-ArrayIfTest::mainMethod();
+RequestTest::mainMethod();

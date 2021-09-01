@@ -25,4 +25,4 @@ class ConstIfTest {
 
 }
 
-ConstIfTest::mainMethod('h');
+RequestTest::mainMethod('h');
